@@ -1,0 +1,100 @@
+.container {
+  font-family: AvenirNextLTPro-Regular, Helvetica;
+  width: 100%;
+  height: 650px;
+
+}
+
+.header {
+  margin: 0 auto;
+  background-color: #9B9B8C;
+  border-bottom: 1.5px solid #21211D;
+  height: 40px;
+  width: 100%;
+}
+.left-box {
+  background-color: #EEEEEE;
+  margin:0px;
+  outline:none;
+  display: inline-block;
+  vertical-align: top;
+  width: 49.5%;
+  height: 570px;
+}
+
+.left-content span{
+  color: #490064;
+  font-size: 32pt;
+}
+
+.left-content button {
+  border-style: none;
+  font-family: AvenirNextLTPro-Regular, Helvetica;
+  font-size: 12pt;
+  font-weight: lighter;
+  border-radius: 5px;
+  padding: 10px 32px 8px 32px;
+  background-color: #353526;
+}
+
+.left-content button a {
+  text-decoration: none;
+  color: #C9C9C5;
+}
+.left-content{
+  margin: 0 auto;
+  margin-top: 200px;
+  width: 50.5%;
+  height: 200px;
+  text-align: center;
+
+}
+
+.right-box {
+  display: inline-block;
+  position: relative;
+  width: 50.5%;
+  height: 570px;
+  overflow: hidden;
+
+}
+
+.right-box:before {
+  content: ' ';
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+  opacity: 0.19;
+  background-image: url("./resources/track.fw.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 570px 100%;
+}
+
+.box {
+  display: block;
+  z-index: 1;
+  margin: 0 auto;
+  margin-top: 10px;
+  border: 1px solid black;
+  height: 150px;
+  width: 170px;
+}
+
+.box:first-child{
+  margin-top: 3em;
+}
+
+
+.footer {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  bottom: 5.5px;
+  background-color: #9B9B8C;
+  border-top: 1.5px solid #21211D;
+}

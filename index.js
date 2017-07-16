@@ -38,8 +38,6 @@ appendAlbum();
 appendAlbum();
 
 var final;
-var artist;
-var title;
 
 $('.album_container').click(function(){
   var curr = ($(this).attr('id'));

@@ -47,8 +47,6 @@ $('.album_container').click(function(){
   for (var i = 0; i < data['results'].length; i++){
     if (curr == data['results'][i]['id']){
       final = (data['results'][i]['artist'] + ":" + data['results'][i]['title']);
-      artist = data['results'][i]['artist'];
-      title = data['results'][i]['title'];
       console.log(final);
       $('.pinfo').val(final);
     }
